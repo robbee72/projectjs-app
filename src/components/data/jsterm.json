@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript",
+        "content": "JavaScript is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
+        "slug": "terminology"
+    },
+    {
+        "id": 2,
+        "title": "HTML",
+        "content": "hyper-text markup language basci building block of the Web. It defines the meaning and structure of web context.   ",
+        "slug": "html terminology"
+    },
+    {
+        "id": 3,
+        "title": "CSS",
+        "content": "Cascade Style Sheets",
+        "slug": "CSS terminology"
+    }
+
+]
