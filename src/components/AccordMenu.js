@@ -18,7 +18,9 @@ class AccordMenu extends Component {
           <Accordion.Collapse eventKey='0'>
             <Card.Body>
               <NavLink to='/jshistory' activeClassName='is-active'>
-                <h5>Click here. Let&apos;s look at the history</h5>
+                <h5>
+                  Click here. Let&apos;s look at the history of JavaScript.
+                </h5>
               </NavLink>
             </Card.Body>
           </Accordion.Collapse>

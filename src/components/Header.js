@@ -7,7 +7,7 @@ class Header extends React.Component {
       <header className='header'>
         <div className='content-container'>
           <div className='header__content'>
-            <h2 className='header__title'> JavaScript </h2>
+            <h1 className='header__title'> JavaScript </h1>
             <div>
               <ul>
                 <li>
@@ -28,6 +28,11 @@ class Header extends React.Component {
                 <li>
                   <NavLink to='/hypertextpage' activeClassName='is-active'>
                     HTML
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to='/hook' activeClassName='is-active'>
+                    HOOKS
                   </NavLink>
                 </li>
               </ul>

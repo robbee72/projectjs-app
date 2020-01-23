@@ -6,26 +6,26 @@
 .col-left {
   flex: 2;
   padding: 4px;
-  background-color: bisque;
+  background-color: rgb(211, 229, 240);
   opacity: 0.8;
 }
 .col-mid {
   flex: 1;
   padding: 4px;
-  background-color: bisque;
+  background-color:rgb(211, 229, 240);
   opacity: 0.8;
 }
 
 .col-right {
   flex: 1;
   padding: 4px;
-  background-color: bisque;
+  background-color: rgb(211, 229, 240);
   opacity: 0.8;
 }
 
 @media only screen and (min-width: 641px) {
   .parent {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -48,8 +48,8 @@
   border-radius: 3px;
   padding: $m-size;
   text-align: center;
-  height: 65%;
-  width: 85rem;
+  height: 75%;
+  width: 75%;
 }
 .fm-lo__header {
   color: black;

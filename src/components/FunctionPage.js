@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const FunctionPage = () => (
-  <div className='box-lo__shop'>
+  <div className='box-lo'>
     <div className='box-lo__box'>
       <div className='content-container'>
         <NavLink className='header__title' to='/' />

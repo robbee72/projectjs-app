@@ -8,6 +8,7 @@ import FunctionPage from "../components/FunctionPage";
 import HyperTextPage from "../components/HyperTextPage";
 import JavaScriptHistoryPage from "../components/JavaScriptHistoryPage.js";
 import Terminology from "../components/Terminology";
+import Hookin from "../components/with_hooks/Hookin";
 import Resume from "../components/ResumePage";
 import AboutPage from "../components/Info/AboutPage";
 import ContactPage from "../components/Info/ContactPage";
@@ -26,6 +27,7 @@ const AppRouter = () => (
         <Route path='/jshistory' component={JavaScriptHistoryPage} />
         <Route path='/hypertext' component={HyperTextPage} />
         <Route path='/terms' component={Terminology} />
+        <Route path='/hook' component={Hookin} />
         <Route path='/resume' component={Resume} />
         <Route path='/about' component={AboutPage} />
         <Route path='/contact' component={ContactPage} />

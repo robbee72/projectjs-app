@@ -16,6 +16,114 @@
         "title": "CSS",
         "content": "Cascade Style Sheets",
         "slug": "CSS terminology"
+    },
+    {
+        "id": 4,
+        "title": "Variable",
+        "content":  "var x = 2    // declaration & assignment",
+        "slug": "CSS terminology"
+    },
+    {
+        "id": 5,
+        "title": "Closure",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 6,
+        "title": "Function",
+        "content": "JavaScript is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
+        "slug": "terminology"
+    },
+    {
+        "id": 7,
+        "title": "Class",
+        "content": "hyper-text markup language basci building block of the Web. It defines the meaning and structure of web context.   ",
+        "slug": " terminology"
+    },
+    {
+        "id": 8,
+        "title": "this",
+        "content": "",
+        "slug": " terminology"
+    },
+    {
+        "id": 9,
+        "title": "Object",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 10,
+        "title": "Types",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 11,
+        "title": "Coercion",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 12,
+        "title": "Scope",
+        "content": "The current context of execution. The context in which values and expressions are visible, or can be referenced. If a variable or other expression is not in the current scope, then it is unavailable for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa. A function serves as a closure in JavaScript, and thus creates a scope, so that (for example) a variable defined exclusively within the function cannot be accessed from outside the function or within other functions.",
+        "slug": "terminology"
+    },
+    {
+        "id": 13,
+        "title": "Hoisting",
+        "content": "hyper-text markup language basci building block of the Web. It defines the meaning and structure of web context.   ",
+        "slug": "html terminology"
+    },
+    {
+        "id": 14,
+        "title": "Equality",
+        "content": "",
+        "slug": " terminology"
+    },
+    {
+        "id": 15,
+        "title": "Variable",
+        "content": "A variable is a named location for storing a value. That way an unpredictable value can be accessed through a predetermined name.",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 16,
+        "title": "Closure",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 17,
+        "title": "Function",
+        "content": "JavaScript is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
+        "slug": "terminology"
+    },
+    {
+        "id": 18,
+        "title": "this",
+        "content": "",
+        "slug": " terminology"
+    },
+    {
+        "id": 19,
+        "title": "Object",
+        "content": "Equality",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 20,
+        "title": "Types",
+        "content": "",
+        "slug": "JS terminology"
+    },
+    {
+        "id": 21,
+        "title": "Coercion",
+        "content": "",
+        "slug": "JS terminology"
     }
 
 ]

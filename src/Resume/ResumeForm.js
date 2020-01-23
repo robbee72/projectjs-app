@@ -224,7 +224,7 @@ class ResumeCV extends React.Component {
             </div>
           </div>
         </div>
-        <div className='column col-mid'>
+        <div className='column col-left'>
           <div className='content-container__menu'>
             <div style={separStyle}>
               ______________________________________________________

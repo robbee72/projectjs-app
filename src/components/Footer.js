@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => (
   <footer className='footer'>
-    <div className='content-container'>
+    <div className='page-container'>
       <div className='footer__content'>
         <div>
           <ul>
@@ -24,6 +24,8 @@ const Footer = () => (
             </li>
           </ul>
         </div>
+        <h5>Designed and Coded by Keith Robinson </h5>
+        <h5>copyright 2020</h5>
       </div>
     </div>
   </footer>
