@@ -1,5 +1,11 @@
+/* import data from json file. (Note: comments here about json file. 
+Comments in json files don't work)*/
+
 import React, { Component } from "react";
 import TermData from "../data/jsterm.json";
+
+// defining styling Objects with const.Notice the difference between
+// .css format and inline syntax.
 
 const tStyle = {
   color: "black",
@@ -24,6 +30,7 @@ const pStyle = {
   textIndent: "2em",
 };
 
+// React class component -> render ->return
 class TermList extends Component {
   render() {
     return (

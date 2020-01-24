@@ -1,3 +1,5 @@
+// use of both .scss and inline styling.
+
 import React, { Component } from "react";
 import TermList from "./terms/TermList";
 
