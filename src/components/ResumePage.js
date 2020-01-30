@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ResumeForm from "../Resume/ResumeForm";
+import ResumeCV from "../resume/ResumeForm";
 
-const Resume = () => {
+const ResumePage = () => {
   return (
     <div className='box-lo__fm'>
       <div className='fm-lo__box'>
         <Link className='header__title' to='/' />
-        <ResumeForm />
+        <ResumeCV />
       </div>
     </div>
   );
 };
 
-export default Resume;
+export default ResumePage;

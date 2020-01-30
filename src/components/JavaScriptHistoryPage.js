@@ -23,7 +23,7 @@ class JavaScriptHistory extends Component {
           needed a prototype. Eich wrote one in 10 days, in May 1995. JavaScript
           is a high-level, dynamic, weakly typed, object-based, multi-paradigm
           language, supports event-driven, functional, and imperative
-          and prototype-based) programming styles. 
+          and prototype-based) programming styles.  ...to be continued
         </p>
       </div>
     );

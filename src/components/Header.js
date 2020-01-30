@@ -21,12 +21,12 @@ class Header extends React.Component {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/css' activeClassName='is-active'>
+                  <NavLink to='/cascade' activeClassName='is-active'>
                     CSS
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to='/hypertextpage' activeClassName='is-active'>
+                  <NavLink to='/hypertext' activeClassName='is-active'>
                     HTML
                   </NavLink>
                 </li>

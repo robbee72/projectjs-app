@@ -17,7 +17,7 @@
 }
 
 body {
-  height: 40vh;
+  height: 50vh;
   display: grid;
   place-items: center;
   font-family: "Oswald", sans-serif;
@@ -30,7 +30,7 @@ body {
 .card__content {
   text-align: center;
   position: relative;
-  padding: 10em 5em;
+  padding: 7em 5em;
   transition: transform 3s;
 
   transform-style: preserve-3d;

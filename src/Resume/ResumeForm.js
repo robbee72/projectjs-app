@@ -1,74 +1,22 @@
 // Inline styling
-
 import React from "react";
-
-const titleStyle = {
-  textAlign: "center",
-  fontSize: "25px",
-  fontFamily: "Calibri Light",
-};
-
-const subtitleStyle = {
-  color: "black",
-  fontSize: "14px",
-  fontFamily: "Palatino, URW Palladio L, serif",
-  textAlign: "center",
-  padding: "2em, 0.05em, 0, 2em",
-  paddingBottom: "0.5em",
-  margin: "0 0 0",
-  lineHeight: "1",
-};
-
-const pStyle = {
-  textAlign: "center",
-  fontSize: "12px",
-};
-
-const separStyle = {
-  textAlign: "center",
-  fontSize: "14px",
-};
-
-const colStyle = {
-  color: "black",
-  fontSize: "10px",
-  fontFamily: "Palatino, URW Palladio L, serif",
-  textAlign: "center",
-};
-
-const subheadStyle = {
-  color: "black",
-  fontSize: "10px",
-  fontWeight: "bold",
-  fontFamily: "Palatino, URW Palladio L, serif",
-  textAlign: "left",
-};
-
-const lsStyle = {
-  lineHeight: ".90",
-};
-
-const bulletStyle = {
-  display: "inline-block",
-  paddingLeft: "15px",
-};
 
 class ResumeCV extends React.Component {
   render() {
     return (
       <div className='parent'>
         <div className='column col-left'>
-          <div className='content-container__menu'>
-            <div style={titleStyle}>KEITH ROBINSON</div>
-            <div style={pStyle}>
+          <div className='content-container'>
+            <div className='titleclassName'>KEITH ROBINSON</div>
+            <div className='pResume'>
               Maple Grove, MN 55369 (702) 510-3268 krobnson@gmail.com
             </div>
 
-            <div style={separStyle}>
+            <div className='separResume'>
               ______________________________________________________
             </div>
             <br />
-            <div style={subtitleStyle}>PROFESSIONAL SUMMARY</div>
+            <div className='subtitleResume'>PROFESSIONAL SUMMARY</div>
 
             <div className='fm-lo__subtitle'>
               Customer-oriented professional with software engineer experience
@@ -78,14 +26,14 @@ class ResumeCV extends React.Component {
               highest level of customer-service.
             </div>
             <br />
-            <div style={separStyle}>
+            <div className='separResume'>
               ______________________________________________________
             </div>
-            <div style={subtitleStyle}>SKILLS</div>
+            <div className='subtitleResume'>SKILLS</div>
             <div>
               <div className='row'>
                 <div className='col-xs-6'>
-                  <div style={colStyle}>
+                  <div className='colResume'>
                     <p>
                       • Software Languages (Javascript, React, Ruby on Rails)
                     </p>
@@ -100,7 +48,7 @@ class ResumeCV extends React.Component {
                   </div>
                 </div>
                 <div className='col-xs-6'>
-                  <div style={colStyle}>
+                  <div className='colResume'>
                     <p>• Microsoft 365 (Word, Excel, PowerPoint)</p>
                     <p>• CRM, Peoplesoft, Opera </p>
                     <p>• Adobe Creative Suite (Photoshop, Premiere) </p>
@@ -112,21 +60,21 @@ class ResumeCV extends React.Component {
                 </div>
               </div>
             </div>
-            <div style={separStyle}>
+            <div className='separResume'>
               ______________________________________________________
             </div>
-            <div style={subtitleStyle}>WORK HISTORY</div>
+            <div className='subtitleResume'>WORK HISTORY</div>
 
             <div className='fm-lo__fm'>
               <br />
-              <div style={subheadStyle}>
+              <div className='subheadResume'>
                 Software Engineer 03/2016 to 11/2019
               </div>
-              <div style={lsStyle}>
+              <div className='lsResume'>
                 (Remote Contractor) – Maple Grove, Minnesota
                 <br />
                 <br />
-                <div style={bulletStyle}>
+                <div className='bulletResume'>
                   • Created new business for software web solutions. From single
                   page to Cloud services.
                   <p />• Used programming capabilities in JavaScript, React,
@@ -145,14 +93,14 @@ class ResumeCV extends React.Component {
                 </div>
               </div>
               <br />
-              <div style={subheadStyle}>
+              <div className='subheadResume'>
                 Golf Professional 04/2005 to 12/2017
               </div>
-              <div style={lsStyle}>
+              <div className='lsResume'>
                 Wynn Las Vegas – Las Vegas, Nevada
                 <br />
                 <br />
-                <div style={bulletStyle}>
+                <div className='bulletResume'>
                   • Organized daily outings and tournaments for casino and
                   corporate events at club, which led to year over year increase
                   in rounds played.
@@ -171,15 +119,15 @@ class ResumeCV extends React.Component {
                 </div>
               </div>
               <br />
-              <div style={subheadStyle}>
+              <div className='subheadResume'>
                 Professional Golf Caddie 09/2002 to 03/2005
               </div>
-              <div style={lsStyle}>
+              <div className='lsResume'>
                 Cascata Golf Club ( Caesars Entertainment) – Boulder City,
                 Nevada
                 <br />
                 <br />
-                <div style={bulletStyle}>
+                <div className='bulletResume'>
                   • Established and maintained productive working relationships
                   with staff and guests.
                   <p />• Assisted guests with course management and logistics.
@@ -187,12 +135,14 @@ class ResumeCV extends React.Component {
                 </div>
               </div>
               <br />
-              <div style={subheadStyle}>Project Manager 09/2001 to 09/2002</div>
-              <div style={lsStyle}>
+              <div className='subheadResume'>
+                Project Manager 09/2001 to 09/2002
+              </div>
+              <div className='lsResume'>
                 Top Tool Company – Minneapolis, MN
                 <br />
                 <br />
-                <div style={bulletStyle}>
+                <div className='bulletResume'>
                   • Lead sales team that lead to several new business projects.
                   <p />• Prepared and reviewed engineering drawing and
                   documentation specifications, scope of work, cost estimating,
@@ -206,32 +156,35 @@ class ResumeCV extends React.Component {
                 </div>
               </div>
             </div>
-            <div style={separStyle}>
+            <div className='column col-left'>
+              <div className='content-container'>
+                <div className='separResume'>
+                  ______________________________________________________
+                </div>
+                <div className='subtitleResume'>EDUCATION</div>
+                <div className='fm-lo__fm'>
+                  Certification : Full Stack Software Developer
+                  <div className='subheadResume'>Bloc.io</div>
+                  <div className='bulletResume'>
+                    - San Francisco, CA Bootcamp coursework in HTML, CSS and
+                    JavaScript • JavaScript, Ruby on Rails and Angular projects
+                  </div>
+                  <div className='subheadResume'>
+                    Business Administration University of Minnesota
+                  </div>
+                  <div className='bulletResume'>
+                    – Twin Cities – Minneapolis, MN
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='separResume'>
               ______________________________________________________
             </div>
-            <div style={subtitleStyle}>EDUCATION</div>
+            <div className='subtitleResume'>INTERESTS</div>
             <div className='fm-lo__fm'>
-              Certification : Full Stack Software Developer{" "}
-              <div style={subheadStyle}>Bloc.io</div>{" "}
-              <div style={bulletStyle}>
-                - San Francisco, CA Bootcamp coursework in HTML, CSS and
-                JavaScript • JavaScript, Ruby on Rails and Angular projects
-              </div>
-              <div style={subheadStyle}>
-                Business Administration University of Minnesota
-              </div>
-              <div style={bulletStyle}>– Twin Cities – Minneapolis, MN</div>
-            </div>
-          </div>
-        </div>
-        <div className='column col-left'>
-          <div className='content-container__menu'>
-            <div style={separStyle}>
-              ______________________________________________________
-            </div>
-            <div style={subtitleStyle}>INTERESTS</div>
-            <div className='fm-lo__fm'>
-              <div style={bulletStyle}>
+              <div className='bulletResume'>
                 Photography : Canon EOS 5D Mark IV, full line of L-lenses •
                 Golf: still play to a 0 index. Fly fishing: Health and Fitness
                 enthusiast. Avid reader: Try for a book a week. • Collect

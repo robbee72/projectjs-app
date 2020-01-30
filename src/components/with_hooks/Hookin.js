@@ -8,15 +8,17 @@ import "./hook.css";
 class Hookin extends Component {
   render() {
     return (
-      <div className='box-lo'>
-        <div className='hook-Header'>
-          <Header />
-          <div className='hook-Hook'>
-            <Hook />
-          </div>
-          <div className='hook-Example'>
-            <hr />
-            <Traditional />
+      <div className='content-container'>
+        <div className='box-lo'>
+          <div className='hook-Header'>
+            <Header />
+            <div className='hook-Hook'>
+              <Hook />
+            </div>
+            <br />
+            <div className='hook-Example'>
+              <Traditional />
+            </div>
           </div>
         </div>
       </div>
