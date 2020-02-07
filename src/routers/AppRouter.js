@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import LandingPage from "../components/LandingPage";
 import FunctionPage from "../components/FunctionPage";
 import HyperTextPage from "../components/HyperTextPage";
+import PythonPage from "../components/PythonPage";
 import CascadePage from "../components/CascadePage";
 import JavaScriptHistoryPage from "../components/JavaScriptHistoryPage.js";
 import Terminology from "../components/Terminology";
@@ -30,6 +31,7 @@ const AppRouter = () => (
         <Route path='/function' component={FunctionPage} />
         <Route path='/jshistory' component={JavaScriptHistoryPage} />
         <Route path='/hypertext' component={HyperTextPage} />
+        <Route path='/python' component={PythonPage} />
         <Route path='/cascade' component={CascadePage} />
         <Route path='/terms' component={Terminology} />
         <Route path='/hook' component={Hookin} />

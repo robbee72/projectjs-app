@@ -1,5 +1,6 @@
 {
   "name": "projectjs-app",
+  "homepage": "http://robbee72.github.io/projectjs-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

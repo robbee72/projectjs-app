@@ -35,6 +35,11 @@ class Header extends React.Component {
                     HOOKS
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink to='/python' activeClassName='is-active'>
+                    PYTHON
+                  </NavLink>
+                </li>
               </ul>
             </div>
           </div>

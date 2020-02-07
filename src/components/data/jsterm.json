@@ -27,7 +27,7 @@
     {
         "id": 5,
         "title": "Closure",
-        "content": "",
+        "content": "is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.",
         "slug": "JS terminology"
     },
     {
@@ -51,13 +51,13 @@
     {
         "id": 9,
         "title": "Object",
-        "content": "",
+        "content": "{ }",
         "slug": "JS terminology"
     },
     {
         "id": 10,
         "title": "Types",
-        "content": "",
+        "content": "'undefiend', 'null', 'boolean', 'number', 'string', 'symbol'",
         "slug": "JS terminology"
     },
     {
@@ -92,14 +92,14 @@
     },
     {
         "id": 16,
-        "title": "Closure",
-        "content": "",
+        "title": "Array",
+        "content": "[ ]",
         "slug": "JS terminology"
     },
     {
         "id": 17,
-        "title": "Function",
-        "content": "JavaScript is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.",
+        "title": "Block",
+        "content": "Statements inside curly braces.",
         "slug": "terminology"
     },
     {
@@ -111,18 +111,18 @@
     {
         "id": 19,
         "title": "Object",
-        "content": "Equality",
+        "content": "OOP",
         "slug": "JS terminology"
     },
     {
         "id": 20,
-        "title": "Types",
+        "title": "script",
         "content": "",
         "slug": "JS terminology"
     },
     {
         "id": 21,
-        "title": "Coercion",
+        "title": "href",
         "content": "",
         "slug": "JS terminology"
     }
